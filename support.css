@@ -1,6 +1,5 @@
 /* FONT IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:wght@500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Elsie+Swash+Caps:wght@400;900&display=swap');
 /* Box Model Hack */
 * {
   box-sizing: border-box;
@@ -38,7 +37,11 @@ header img{
 maintxt {
   float:left;
   display:flex;
+	
 
+}
+h1 {
+  font-family: 'Elsie Swash Caps', cursive;
 }
 
 /* Dropdown Button */
@@ -51,6 +54,8 @@ maintxt {
   width:800px;
   border: 1px black solid;
   font-weight:500;
+  font-family: 'Anonymous Pro', monospace;
+
 }
 .dropdown {
   position: relative;
@@ -63,6 +68,8 @@ maintxt {
   min-width: 160px;
   z-index: 1;
   width:800px;
+  font-family: 'Anonymous Pro', monospace;
+
 }
 .dropdown-content a {
   color: black;
