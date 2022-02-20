@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x:hidden;
+ }
+
+header {
+  width:700px;
+  padding:20px;
+}
+
+header img {
+  height:96px;
+  width:96px;
+}
+
+
+ h1{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  
+}
+
+
+
+.aside img {
+  float:right;
+  display:flex-end;
+  flex-direction: row;
+  width: 500px;
+ border:none;
+   -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  height: auto;
+  
+  
+}
+.container {
+  line-height:70px;
+}
+
+    
+.login-form {
+        background-color: #FFFFFF;
+        float:left;
+        flex-direction: column;
+        justify-content: flex-start;
+        overflow-Y: auto;
+        margin: 0 auto;
+        width: 500px;
+        
+   
+    }
+
+    
+ .sign {
+        padding-top: 40px;
+        color: #8C55AA;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    
+   input {
+    width: 431px;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: white;
+    padding: 10px 20px;
+    border: solid 1px black;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: left;
+    margin-bottom: 27px;
+    flex-direction: column;
+    height:56px;
+    
+   
+    }
+    
+    form.form1 {
+        padding-top: 40px;
+      
+    }
+    
+    .pass {
+     width: 431px;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: left;
+    margin-bottom: 27px;
+    }
+    
+    
+button{
+  border: 2px  solid black;
+  font-size: 18px;
+  border-radius: 25px;
+  font-weight:600;
+  color: black;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  float:left;
+  justify-content: center;
+  height:53px;
+  width:221px;
+  margin:5px;
+ 
+}
+
+button:hover {
+  background-color:#d19fe8;
+}
+ .login {
+    width: 50%;
+  }
+
+    
+    @media (max-width: 600px) {
+        .main {
+            border-radius: 0px;
+        }
