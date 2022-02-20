@@ -1,5 +1,5 @@
 /* FONT IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Elsie+Swash+Caps:wght@400;900&display=swap');
 
 /* Box Model Hack */
 * {
@@ -59,20 +59,21 @@ header img{
 
 /* MAIN  */
 
-body, header {
-  font-family: 'Poppins', sans-serif;
-}
+
 
 
 h1{
   font-size:60px;
   font-weight:700;
   line-height:40px;
+  font-family: 'Elsie Swash Caps', cursive;
   
 }
 
 h3 {
   font-size:25px;
+  font-family: 'Anonymous Pro', monospace;
+	
 }
 
 #second {
@@ -121,6 +122,7 @@ button{
   width:175px;
   margin:5px;
   font-weight:500;
+font-family: 'Anonymous Pro', monospace;
  
 }
 
