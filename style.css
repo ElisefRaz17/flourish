@@ -1,0 +1,171 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:wght@500;600;700&display=swap');
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/* NAVIGATION */
+
+header {
+  height:96px;
+  clear: both;
+ 
+}
+
+
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+a {
+  display:block;
+}
+
+nav ul {
+  float:right;
+  flex-direction:row;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+header img{
+  height:96px;
+  width:96px;
+  float:left;
+  display:flex;
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: contain;
+  
+}
+
+
+/* MAIN  */
+
+body, header {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+h1{
+  font-size:60px;
+  font-weight:700;
+  line-height:40px;
+  
+}
+
+h3 {
+  font-size:25px;
+}
+
+#second {
+  color:#00AFA9;
+  
+}
+
+
+.mainHero{
+  box-sizing:border-box;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items:center;
+  margin: 0px auto 0px auto; 
+  float:left;
+  min-height:auto;
+  min-width:auto;
+
+  
+    
+  
+}
+main {
+  float:left;
+  display:flex;
+  position: relative;
+  line-height:19.6px;
+  justify-content:flex-start;
+  margin:auto;
+  flex-direction: column;
+  
+}
+button{
+  border: 2px  solid black;
+  font-size: 18px;
+  border-radius: 20px;
+  font-weight:600;
+  color: black;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  float:left;
+  justify-content: center;
+  height:40px;
+  width:175px;
+  margin:5px;
+  font-weight:500;
+ 
+}
+
+ #body {
+  margin:20px;
+}
+
+button:hover {
+  background-color:#d19fe8;
+}
+
+
+section img {
+  height:627px;
+  width:618px;
+  margin:auto;
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: contain;
+  aspect-ratio: 2/1;
+ 
+}
+
+
+/* RESPONSIVE */
+@media (min-width:901px) {
+  header,.mainHero, section img
+}
+
+@media screen (min-width:700px) and (max-width:900px) {
+  header, .mainHero, section img
+}
+
+@media screen and (max-width:599px) {
+  header {
+    position:fixed;
+    top:0;
+    width:auto;
+  }
+  .mainHero {
+    float:none;
+    width:auto;
+  }
+  section img {
+    width:100%;
+    float:none;
+  }
+}
