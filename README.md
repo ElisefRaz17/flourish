@@ -1,4 +1,4 @@
 # Flourish
 
 
-#WElCOME TO FLOURISH
+# WElCOME TO FLOURISH
