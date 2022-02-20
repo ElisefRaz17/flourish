@@ -18,6 +18,10 @@
 
 ###### Once you have chosen a channel you can get help, guidance, advice or even make someone's day through the designated chat. For example, our User Rebecca may want 
 ###### to talk about something Personal, she would click on the Personal option and that will take her to the Personal channel and as you can see below she can spark
-###### a conversation anonymously with another user. How cool is that?? 😃
+###### a conversation anonymously with another user. How cool is that?? 😃 And we can assume Rebbeca is having a silly chat with the user in this dialogue we see here 😂
 ![image](https://github.com/ElisefRaz17/flourish/blob/main/Screenshot%20(327).png)
 
+
+## Now, Are you READY..TO FLOURISH ?!? 😆
+###### Then please follow our journey and star this repository to keep track of the changes and cool implementations we will bring to this application
+###### and we hope you have can floursih your life, Thank you! 💗
